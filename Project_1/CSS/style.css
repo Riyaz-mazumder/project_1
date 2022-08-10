@@ -5,3 +5,9 @@ header {
 .text_holder {
   color: white;
 }
+
+/* footer */
+.section_7{
+  background: url('../photo/parallax-1-1920x850.jpg') center/cover no-repeat;
+  height: 600px;
+}
