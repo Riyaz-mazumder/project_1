@@ -72,6 +72,7 @@ header .text_holder a button:hover {
   justify-content: space-evenly;
   z-index: 100;
   background-color: var(--gray);
+  padding: 0px 50px;
   padding-bottom: 50px;
 }
 .section_2 div {
@@ -216,7 +217,9 @@ header .text_holder a button:hover {
 
 /* section 4 */
 .section_4 {
+  margin: 0px 70px;
   text-align: center;
+  max-width: 1400px;
 }
 .section_4 h1 {
   margin-bottom: 45px;
@@ -355,6 +358,7 @@ header .text_holder a button:hover {
 }
 /* section 6 */
 .section_6 {
+  margin: 0px 30px;
   margin-top: 80px;
   text-align: center;
 }

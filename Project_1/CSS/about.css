@@ -3,9 +3,121 @@
   --black: black;
   --white: white;
   --lite-black: #333;
+  --gray_dark: rgba(182, 177, 177, 0.877);
   --gray: rgba(236, 234, 234, 0.877);
   --review: #ffcc00;
   --footer: #162e44;
 }
 
 /* About Page */
+
+.section_1 {
+  background: url('../photo/about_us-img.jpg') center/cover no-repeat;
+  height: 85vh;
+  position: relative;
+
+  display: grid;
+  place-items: center;
+}
+.section_1 div {
+  text-align: center;
+  color: var(--white);
+  z-index: 100;
+}
+.section_1 div h1 {
+  font-size: 5rem;
+  margin-bottom: 20px;
+}
+/* Section 2 */
+.section_2 {
+  height: 100vh;
+  background-color: var(--gray_dark);
+  display: grid;
+  place-items: center;
+}
+.section_2 div {
+  margin-top: 70px;
+  text-align: center;
+  line-height: 2;
+  font-size: 1.5rem;
+}
+#section_2-text-line {
+  width: 80px;
+  height: 2px;
+  background-color: var(--primary-color);
+  display: inline-block;
+  margin: 0px 40px;
+  margin-bottom: 10px;
+}
+/* Responsive */
+@media screen and (min-width: 992px) {
+  .section_2 div {
+    width: 80%;
+    font-size: 2rem;
+  }
+}
+/* overlay */
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgba(000, 000, 000, 0.3),
+    rgba(000, 000, 000, 0.3)
+  );
+}
+/* section 6 */
+.section_6 {
+  margin: 0px 30px;
+  margin-top: 80px;
+  text-align: center;
+}
+.section_6 h1 {
+  margin: 50px 0px;
+}
+.section_6 div .section_6-card {
+  margin-bottom: 50px;
+}
+.section_6 div .section_6-card .section_6-text {
+  background-color: var(--gray);
+  width: 270px;
+  margin: auto;
+  margin-top: -40px;
+  padding-bottom: 50px;
+}
+.section_6 div .section_6-card .section_6-text h6,
+.section_6 div .section_6-card .section_6-text .phone {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.section_6 div .section_6-card .section_6-text .section_6-position {
+  color: var(--primary-color);
+  font-size: 1.2rem;
+}
+
+.section_6 div .section_6-card .section_6-svg {
+  position: relative;
+  top: -38px;
+}
+.section_6 div .section_6-card:hover {
+  cursor: pointer;
+}
+.section_6 div .section_6-card:hover .section_6 div .section_6-card img {
+  border: 5px solid var(--primary-color);
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+
+/* responsive */
+@media screen and (min-width: 992px) {
+  .section_6 .section_6-banner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .section_6 div .section_6-card {
+    margin: 20px;
+  }
+}
