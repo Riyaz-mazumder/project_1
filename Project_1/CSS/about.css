@@ -1,0 +1,11 @@
+:root {
+  --primary-color: rgb(31, 215, 153);
+  --black: black;
+  --white: white;
+  --lite-black: #333;
+  --gray: rgba(236, 234, 234, 0.877);
+  --review: #ffcc00;
+  --footer: #162e44;
+}
+
+/* About Page */

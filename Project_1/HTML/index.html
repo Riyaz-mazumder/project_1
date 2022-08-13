@@ -5,245 +5,411 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- java script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../CSS/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
-    <nav>
-      <div class="nav-links">
-        <ul>
-          <li>
-            <a href="../HTML/index.html">Home</a>
-          </li>
-          <li>
-            <a href="../HTML/about.html">About</a>
-          </li>
-          <li>
-            <a href="../HTML/contact.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-      <div class="social-links">
-        <div class="f-book">
-          <i class="fa-brands fa-facebook-f"></i>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="nav-links">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link page" href="../HTML/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page" href="../HTML/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page" href="../HTML/contact.html"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
         </div>
-        <div class="twitter">
-          <i class="fa-brands fa-twitter"></i>
-        </div>
-        <div class="git-hub">
-          <i class="fa-brands fa-github"></i>
+        <div class="social-links">
+          <div class="f-book">
+            <a href="https://www.facebook.com/riaj.mazumder.7" target="_blank"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+          </div>
+          <div class="twitter">
+            <a href="https://twitter.com/Riaj17827808" target="_blank">
+              <i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+          <div class="git-hub">
+            <a href="https://github.com/Riyaz-mazumder" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
         </div>
       </div>
     </nav>
     <header>
-      
       <div class="text_holder">
-        <h4>BUILD YOUR NEXT HOLLIDAY WITH US</h4>
-        <h1>Create YOUR Tour</h1>
-        <button>G</button>
+        <h4>A TEAM OF PROFESSIONAL TRAVEL EXPERTS</h4>
+        <h1>Explore <span id="theWorld">The world</span></h1>
+        <a href="../HTML/contact.html"><button>Get in touch</button></a>
       </div>
     </header>
     <div class="section_2">
-      <div>
+      <div class="section_2-firstImg">
         <img src="../photo/mounten.jpg" alt="Mounten Tur" />
+        <h5>Mountain Holiday</h5>
       </div>
       <div>
         <img src="../photo/balloon.jpg" alt="balloon Tur" />
+        <h5>Balloon Holiday</h5>
       </div>
       <div>
         <img src="../photo/trees.jpg" alt="trees Tur" />
+        <h5>Beach Holidays</h5>
       </div>
+      <a
+        href="https://blog.flyticket.com.bd/top-30-tourist-places-of-bangladesh-2/"
+        target="_blank"
+      >
+        <p>Other Tours <i class="fa-solid fa-arrow-right-long"></i></p
+      ></a>
     </div>
 
     <section class="section_3">
       <div>
-        <img src="../photo/mounten.jpg" alt="mounten" />
+        <img src="../photo/horizon.jpg" alt="horizon" />
       </div>
-      <h1>Discover New Horizons</h1>
-      <p>
-        Wonder Tour is committed to bringing our clients the best in value and
-        quality travel arrangements. We are passionate about travel and sharing
-        the world's wonders with you.
-      </p>
-      <div class="btn-holder">
-        <button>Get in touch</button>
-        <button>Red More</button>
+      <div class="section_3-text">
+        <h1>Discover New Horizons</h1>
+        <p>
+          Wonder Tour is committed to bringing our clients the best in value and
+          quality travel arrangements. We are passionate about travel and
+          sharing the world's wonders with you.
+        </p>
+        <div class="btn-holder">
+          <a href="../HTML/contact.html"
+            ><button class="section_3-btn1">Get in touch</button></a
+          >
+          <a
+            href="https://www.gov.uk/foreign-travel-advice/bangladesh"
+            target="_blank"
+          >
+            <button class="section_3-btn2">Red More</button></a
+          >
+        </div>
       </div>
     </section>
     <section class="section_4">
       <h1>Our Services</h1>
-      <div>
-        <div class="icon"></div>
-        <h2>Personalized Matching</h2>
-        <p>
-          Our unique matching system lets you find just the tour you want for
-          your next holiday.
-        </p>
-      </div>
-      <div>
-        <div class="icon"><i class="fa-regular fa-heart"></i></div>
-        <h2>Wide Variety of Tours</h2>
-        <p>
-          We offer a wide variety of personally picked tours with destinations
-          all over the globe.
-        </p>
-      </div>
-      <div>
-        <div class="icon"></div>
-        <h2>Highly Qualified Service</h2>
-        <p>
-          Our tour managers are qualified, skilled, and friendly to bring you
-          the best service.
-        </p>
-      </div>
-      <div>
-        <div class="icon"></div>
-        <h2>24/7 Support</h2>
-        <p>
-          You can always get professional support from our staff 24/7 and ask
-          any question you have.
-        </p>
-      </div>
-      <div>
-        <div class="icon"></div>
-        <h2>Handpicked Hotels</h2>
-        <p>
-          Our team offers only the best selection of affordable and luxury
-          hotels to our clients.
-        </p>
-      </div>
-      <div>
-        <div class="icon"></div>
-        <h2>Best Price Guarantee</h2>
-        <p>
-          If you find tours that are cheaper than ours, we will compensate the
-          difference.
-        </p>
+      <div class="section_4-container-wraper">
+        <div class="section_4-container">
+          <div class="icon"><i class="fa-solid fa-database"></i></div>
+          <h2>Personalized Matching</h2>
+          <p>
+            Our unique matching system lets you find just the tour you want for
+            your next holiday.
+          </p>
+        </div>
+        <div class="section_4-container">
+          <div class="icon"><i class="fa-solid fa-ribbon"></i></div>
+          <h2>Wide Variety of Tours</h2>
+          <p>
+            We offer a wide variety of personally picked tours with destinations
+            all over the globe.
+          </p>
+        </div>
+        <div class="section_4-container">
+          <div class="icon"><i class="fa-solid fa-star"></i></div>
+          <h2>Qualified Service</h2>
+          <p>
+            Our tour managers are qualified, skilled, and friendly to bring you
+            the best service.
+          </p>
+        </div>
+        <div class="section_4-container">
+          <div class="icon"><i class="fa-solid fa-headphones"></i></div>
+          <h2>24/7 Support</h2>
+          <p>
+            You can always get professional support from our staff 24/7 and ask
+            any question you have.
+          </p>
+        </div>
+        <div class="section_4-container">
+          <div class="icon"><i class="fa-solid fa-fire"></i></div>
+          <h2>Handpicked Hotels</h2>
+          <p>
+            Our team offers only the best selection of affordable and luxury
+            hotels to our clients.
+          </p>
+        </div>
+        <div class="section_4-container">
+          <div class="icon"><i class="fa-solid fa-folder-open"></i></div>
+          <h2>Best Price Guarantee</h2>
+          <p>
+            If you find tours that are cheaper than ours, we will compensate the
+            difference.
+          </p>
+        </div>
       </div>
     </section>
     <section class="section_5">
-      <div class="tour_1">
-        <div>
+      <h1>Hot Tours</h1>
+      <div class="tour_1 section_5-tours">
+        <div class="section_5-img-holder">
           <img src="../photo/tour_1.jpg" alt="tour" />
         </div>
-        <div>
+        <div class="section_5-text">
           <h2>Benidorm, Spain</h2>
-          <div class="revews">
-            <p class="revews-count">4 customer reviews</p>
+          <div class="reviews">
+            <p class="reviews-count">
+              <span
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star-half"></i
+              ></span>
+              4 customer reviews
+            </p>
           </div>
           <p>
             Benidorm is a buzzing resort with a big reputation for beach
             holidays. Situated in sunny Costa Blanca, the town is one of the
             original Spanish beach resorts...
           </p>
-          <button>Buy This Tour</button>
+          <a
+            href="https://www.africaincoming.com/package/mauritius-tour-package"
+            ><button>Buy This Tour</button></a
+          >
         </div>
         <div class="price">30,550&#2547;</div>
       </div>
-      <div class="tour_2">
-        <div>
+      <div class="tour_2 section_5-tours">
+        <div class="section_5-img-holder">
           <img src="../photo/tour_2.jpg" alt="tour" />
         </div>
-        <div>
+        <div class="section_5-text">
           <h2>Mauritius Island, Africa</h2>
-          <div class="revews">
-            <p class="revews-count">5 customer reviews</p>
+          <div class="reviews">
+            <p class="reviews-count">
+              <span
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+                ><i class="fa-solid fa-star-half"></i
+              ></span>
+              5 customer reviews
+            </p>
           </div>
           <p>
             The beautiful and inviting island nation of Mauritius is an ideal
             ‘flop and drop’ at the conclusion of your safari. Indulge in the
             delightful scents of the fragrant...
           </p>
-          <button>Buy This Tour</button>
+          <a href="https://www.viator.com/Benidorm/d31484-ttd"
+            ><button>Buy This Tour</button></a
+          >
         </div>
         <div class="price">50,000&#2547;</div>
       </div>
     </section>
     <section class="section_6">
       <h1>Different People — One Mission</h1>
-      <div>
-        <img src="../photo/aveter_2.jpg" alt="owner" />
-        <div>
-          <h6>Riyaz Mazumder</h6>
-          <p>Founder, Owner</p>
-          <div class="phone">+8801626193706</div>
+      <div class="section_6-banner">
+        <div class="section_6-card">
+          <img src="../photo/aveter_2.jpg" alt="owner" />
+          <div class="section_6-svg">
+            <svg
+              x="0px"
+              y="0px"
+              width="270px"
+              height="70px"
+              viewBox="0 0 270 70"
+              enable-background="new 0 0 270 70"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  fill="rgba(236, 234, 234, 0.877)"
+                  d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <div class="section_6-text">
+            <h6>Riyaz Mazumder</h6>
+            <p class="section_6-position">Founder, Owner</p>
+            <div class="phone">+8801626193706</div>
+          </div>
         </div>
-      </div>
-      <div>
-        <img src="../photo/abter_1.jpg" alt="agent" />
-        <div>
-          <h6>Adhora Ahmed</h6>
-          <p>PR Manager</p>
-          <div class="phone">+8801626193706</div>
+        <div class="section_6-card">
+          <img src="../photo/abter_1.jpg" alt="agent" />
+          <div class="section_6-svg">
+            <svg
+              x="0px"
+              y="0px"
+              width="270px"
+              height="70px"
+              viewBox="0 0 270 70"
+              enable-background="new 0 0 270 70"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  fill="rgba(236, 234, 234, 0.877)"
+                  d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <div class="section_6-text">
+            <h6>Adhora Ahmed</h6>
+            <p class="section_6-position">PR Manager</p>
+            <div class="phone">+8801626193706</div>
+          </div>
         </div>
-      </div>
-      <div>
-        <img src="../photo/aveter_4.jpg" alt="agent" />
-        <div>
-          <h6>James Smith</h6>
-          <p>Travel Agent</p>
-          <div class="phone">+1 323-913-4688</div>
+        <div class="section_6-card">
+          <img src="../photo/aveter_4.jpg" alt="agent" />
+          <div class="section_6-svg">
+            <svg
+              x="0px"
+              y="0px"
+              width="270px"
+              height="70px"
+              viewBox="0 0 270 70"
+              enable-background="new 0 0 270 70"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  fill="rgba(236, 234, 234, 0.877)"
+                  d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <div class="section_6-text">
+            <h6>James Smith</h6>
+            <p class="section_6-position">Travel Agent</p>
+            <div class="phone">+1 323-913-4688</div>
+          </div>
         </div>
-      </div>
-      <div>
-        <img src="../photo/aveter_3.jpg" alt="agent" />
-        <div>
-          <h6>Jill Peterson</h6>
-          <p>Tour Consultant</p>
-          <div class="phone">+1 323-913-4688</div>
+        <div class="section_6-card">
+          <img src="../photo/aveter_3.jpg" alt="agent" />
+          <div class="section_6-svg">
+            <svg
+              x="0px"
+              y="0px"
+              width="270px"
+              height="70px"
+              viewBox="0 0 270 70"
+              enable-background="new 0 0 270 70"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  fill="rgba(236, 234, 234, 0.877)"
+                  d="M202.085,0C193.477,28.912,166.708,50,135,50S76.523,28.912,67.915,0H0v70h270V0H202.085z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+          <div class="section_6-text">
+            <h6>Jill Peterson</h6>
+            <p class="section_6-position">Tour Consultant</p>
+            <div class="phone">+1 323-913-4688</div>
+          </div>
         </div>
       </div>
     </section>
     <section class="section_7">
-      <h1>First-class Impressions are Waiting for You!</h1>
-      <p>
-        Our agency offers travelers various tours and excursions with
-        destinations all over the world. Browse our website to find your dream
-        tour!
-      </p>
-      <button>Book a Tour Now</button>
+      <div class="overlay"></div>
+      <div class="section_7-text">
+        <h1>First-class Impressions are Waiting for You!</h1>
+        <p>
+          Our agency offers travelers various tours and excursions with
+          destinations all over the world. Browse our website to find your dream
+          tour!
+        </p>
+        <a
+          href="https://blog.flyticket.com.bd/top-30-tourist-places-of-bangladesh-2/"
+        >
+          <button id="section_7-btn">Book a Tour Now</button></a
+        >
+      </div>
     </section>
     <section class="section_8">
-      <h6>Gallery</h6>
+      <button>Gallery</button>
       <div class="img-gallery">
-        <img src="../photo/ga;ary.jpg" alt="img-gallery">
-        <img src="../photo/galary_3.jpg" alt="img-gallery">
-        <img src="../photo/galary_4.jpg" alt="img-gallery">
-        <img src="../photo/galary_5.jpg" alt="img-gallery">
-        <img src="../photo/galary.jpg" alt="img-gallery">
-        <img src="../photo/galary_6.jpg" alt="img-gallery">
+        <img src="../photo/ga;ary.jpg" alt="img-gallery" />
+        <img src="../photo/galary_3.jpg" alt="img-gallery" />
+        <img src="../photo/galary_4.jpg" alt="img-gallery" />
+        <img src="../photo/galary_5.jpg" alt="img-gallery" />
       </div>
     </section>
     <footer>
       <div class="contact">
         <h6>CONTACT US</h6>
-     
-      <div class="phone">
-        <span><i class="fa-solid fa-phone"></i></span>
-        +88 01626193706
+
+        <div class="phone">
+          <span><i class="fa-solid fa-phone"></i></span>
+          +88 01626193706
+        </div>
+        <div class="message-email">
+          <span><i class="fa-solid fa-envelope"></i></span>
+          <a href="mailto:riajmazumder711@gmail.com"
+            >riajmazumder711@gmail.com</a
+          >
+        </div>
+        <div class="phone">
+          <span><i class="fa-solid fa-paper-plane"></i></span>
+          Rod no: 1, Block: A, Banasree, Dhaka 1219.
+        </div>
       </div>
-      <div class="message-email">
-        <span><i class="fa-solid fa-envelope"></i></span>
-       riajmazumder711@gmail.com
-      </div>
-      <div class="phone">
-        <span><i class="fa-solid fa-paper-plane"></i></span>
-        Rod no: 1, Block: A,<br> Banasree, Dhaka 1219.
-      </div>
-    </div>
-    <div class="popular_news">
-      <div class="news_1">
-        <a href="https://www.planetware.com/world/top-places-to-visit-in-the-world-us-az-234.htm" target="_blank">Your Personal Guide to 5 Best Places to Visit on Earth</a>
-        <p>May 04, 2022</p>
-      </div>
-      <div class="news_2">
-        <a href="https://www.tripadvisor.com/Hotels-g293936-zff12-Dhaka_City_Dhaka_Division-Hotels.html">Top 10 Hotels in Dhaka: Rating by Wonder Tour Travel Experts</a>
-        <p>August 10 2022</p>
-      </div>
-      <div class="quick_links">
+      <div class="popular_news">
+        <h6>POPULAR NEWS</h6>
+        <div class="news_1">
+          <a
+            href="https://www.planetware.com/world/top-places-to-visit-in-the-world-us-az-234.htm"
+            target="_blank"
+            >Your Personal Guide to 5 Best Places to Visit on Earth</a
+          >
+          <p>May 04, 2022</p>
+        </div>
+        <div class="news_2">
+          <a
+            href="https://www.tripadvisor.com/Hotels-g293936-zff12-Dhaka_City_Dhaka_Division-Hotels.html"
+            >Top 10 Hotels in Dhaka: Rating by Wonder Tour Travel Experts</a
+          >
+          <p>August 10 2022</p>
+        </div>
         <button>Get in touch</button>
       </div>
-    </div>
     </footer>
   </body>
 </html>
